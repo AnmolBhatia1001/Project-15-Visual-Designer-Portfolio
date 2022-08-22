@@ -68,14 +68,23 @@ main,
     opacity: 80%;
 }
 
+.main-img{
+    width: 50%;
+}
+
 .main-img img{
-    height: 575px;
+    width: 100%;
+}
+
+.nav-menu{
+    display: none;
 }
 
 .main-content{
     justify-content: center;
     align-items: flex-start;
     /* gap: 0.5em; */
+    width: 50%;
 }
 
 .main-content h3{
@@ -292,7 +301,6 @@ padding: 25px;
 
 .foo-nav{
     margin-top: 50px;
-    margin-bottom: -40px;
 }
 
 .foo-nav ul{
